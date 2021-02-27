@@ -8,3 +8,5 @@ for the connection requests and then the client code can be opened to establish 
 The client can enter commands to retrieve the class averages for various assignments, but to
 access their own grades they’ll need to login with an ID and password which will be
 authenticated by the server.
+
+The default host address is set to an IN_ADDR_ANY address which would allow for this TCP connection to be established between 2 ports onthe same machine and network. Changing these addresses to IP addresses of different machines on different machines will allow the TCP connection to be established between those 2 machines as long as both are connected to the internet. However the demonstration in the Lab report is done with both the client and server being on the same machine.
